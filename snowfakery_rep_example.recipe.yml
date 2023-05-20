@@ -1,0 +1,15 @@
+# before you execute this you might need to set your
+# PYTHONPATH with a command like this:
+#
+# $ export PYTHONPATH=.
+# or
+# > set PYTHONPATH=.
+
+- plugin: faker_representation.Provider
+
+- object: Contact
+  fields:
+    FirstName:
+      fake: nonbinary_name
+    LastName:
+      fake: last_name

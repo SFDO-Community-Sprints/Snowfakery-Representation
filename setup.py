@@ -1,0 +1,32 @@
+"""Provider for Faker which generates names based on more than strict popularity."""
+
+import setuptools
+
+try:
+    with open("README.md", "r") as fh:
+        long_description = fh.read()  # pylint: disable=invalid-name
+except FileNotFoundError:
+    # pylint: disable=invalid-name
+    long_description = (
+        "Provider for Faker which generates names based on more than strict popularity."
+    )
+
+setuptools.setup(
+    name="faker-representation",
+    version="1.0.0",
+    author="Allison Letts, Aaron Crosman, Paul Prescod",
+    author_email="DatagenToolkitTeam@example.invalid",
+    description="Provider for Faker which generates names based on more than strict popularity.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/SFDO-Community-Sprints/Snowfakery-Representation",
+    packages=setuptools.find_packages(),
+    install_requires=["faker"],
+    classifiers=[
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "License :: OSI Approved :: BSD License",
+        "Operating System :: OS Independent",
+    ],
+)
