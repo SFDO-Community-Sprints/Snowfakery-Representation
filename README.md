@@ -1,6 +1,6 @@
-# Snowfakery Education
+# Snowfakery Representation
 
-Fake data to support educational institutions
+Fake data to support representative names, topics, etc.
 
 ## Installation
 
@@ -23,4 +23,4 @@ for _ in range(10):
 
 ## Snowfakery Use
 
-For now you will need to clone the repository and then follow the example in the [sample recipe](snowfakery_edu_example.recipe.yml).
+For now you will need to clone the repository and then follow the example in the [sample recipe](snowfakery_rep_example.recipe.yml).
