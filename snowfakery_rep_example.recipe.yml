@@ -13,3 +13,10 @@
       fake: nonbinary_name
     LastName:
       fake: last_name
+
+- object: Contact
+  fields:
+    FirstName:
+      fake: chicago_name
+    LastName:
+      fake: last_name
