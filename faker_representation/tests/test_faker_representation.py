@@ -36,6 +36,12 @@ class RepresentationProviderTestCase(unittest.TestCase):
         result = self.fake.nonbinary_name()
         word_count = len(result.split())
         self.assertGreaterEqual(word_count, 1)
+    
+    def test_diverse_first_name(self):
+        """Test that generated institution name is at least one word long."""
+        result = self.fake.diverse_first_name()
+        word_count = len(result.split())
+        self.assertGreaterEqual(word_count, 1)
 
 if __name__ == "__main__":
     unittest.main()
